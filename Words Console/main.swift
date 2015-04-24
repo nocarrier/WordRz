@@ -25,11 +25,13 @@ for ( var i = 0; i < 10; i++ ) {
     var d2:Dictionary = [1.1:"AAAA", 1.2:"BBBB"]
     
     //d1["Feline"] = "
-    //d1["Abundent"] = "Mass, A Grip"
+    d1["Abundent"] = "Mass, A Grip"
     d1["Friend"] = "Enemy"
     
     
     var tempWord = WordGroup(theWord: "SDF", theDesc: "POoP!");
+    
+    println("Added: \(i)");
     
 //    : d1, results:d1 );
     //var tempWord = WordEngine(wordList: d1, results:d1 );
