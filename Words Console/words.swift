@@ -27,18 +27,7 @@ public class WordGroup {
         self.Word = theWord;
         self.Description = theDesc;
         
-        println("Adding WordGroup: \(Word) || \(Description)");
-    }
-}
-
-
-public class FlashCard{
-    public var Front: String;
-    public var Back: String;
-    
-    init(front: String, back: String){
-        self.Front = front;
-        self.Back = back;
+        //println("Adding WordGroup: \(Word) || \(Description)");
     }
 }
 
